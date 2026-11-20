@@ -1,5 +1,7 @@
 # Remina — Spaced Revision & Study Planner
 
+![Remina — spaced revision and study planner](assets/poster.png)
+
 **Log what you study in one second. Let Remina bring it back at the moment memory starts to fade — 3, 7, 15, 30, then every 30 days, forever.**
 
 `v1.0.0` · the scheduler runs entirely on your device, your whole study log lives in `localStorage`, the app installs offline, and every topic you add is automatically slotted into a review calendar you never have to maintain.
