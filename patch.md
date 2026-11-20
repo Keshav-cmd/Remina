@@ -2,9 +2,19 @@
 
 Every change to the app is recorded here, newest first. Format: date · files touched · what changed · why.
 
-**Current release: Patch 1.1.1**
+**Current release: Patch 1.1.2**
 
 ---
+
+## Patch 1.1.2 — 2026-11-20 — Mobile quick-add: topic field gets priority
+
+**Files:** `styles.css`, `assets/screenshot-mobile.png`, `patch.md`
+
+- **Fixed a mobile layout bug**: on phones (≤650px) the quick-add row gave the Subject field the same `flex:1` weight as the Topic field on a single row, so the subject took ~218px while the topic was starved to ~57px (topic:subject ratio 0.26 at 390px). Topic is the priority field — it now gets its own full-width row (~338px), with Subject + Log it sharing the row beneath.
+- Added `min-width:0` to `.qa-select` so it no longer forces wrapping onto its own row on very small screens (320–360px).
+- Tablet/desktop layouts untouched: topic stays dominant with a compact 156px subject column.
+- Recaptured `assets/screenshot-mobile.png` (Obsidian theme) with the fixed layout for the README.
+
 
 ## Patch 1.1.1 — 2026-11-20 — Clean wordmark release
 
