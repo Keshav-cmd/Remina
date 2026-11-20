@@ -44,7 +44,7 @@ Prefer an app icon on your home screen? Grab the Android build: **[`app/Remina.a
 
 | First-visit theme picker | Onboarding — tell Remina your name |
 | :---: | :---: |
-| ![Three theme cards: Modern Editorial, Frosted Glass, Obsidian & Champagne](assets/screenshot-themes.png) | ![Name entry with a warm, time-aware greeting preview](assets/screenshot-themes.png) |
+| ![Three theme cards: Modern Editorial, Frosted Glass, Obsidian & Champagne](assets/screenshot-themes.png) | ![Name entry with a warm, time-aware greeting preview](assets/nameset.png) |
 
 ## Features
 
